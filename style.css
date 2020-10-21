@@ -1,0 +1,113 @@
+body {
+    font-family: "Assistant";
+    font-size: 2em;
+}
+
+p.notify {
+    font-size: 15px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+/* ul {
+    list-style-type: none;
+} */ 
+
+li {
+    text-align: right;
+}
+
+/* li:before {
+    content: '&#129405';
+} */
+
+#content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 5px;
+    padding-bottom: 20%;
+}
+
+#logoWrapper img {
+    width: 100%;
+    max-width: 450px;
+}
+
+.cta {
+    margin: 50px 0;
+}
+
+.cta a {
+    background: #0992d6;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cta.green a {
+    background: green;
+}
+
+.cta.purple a {
+    background: purple;
+}
+
+.cta.lightBlue a {
+    background: lightblue;
+}
+
+.innerImage {
+    width: 100%;
+    max-width: 450px;
+    margin: 15px 0;
+}
+
+.courseWrapper {
+    background: #262626;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.courseContent {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background: #a1a1a159;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
